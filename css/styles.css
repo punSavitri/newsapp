@@ -94,6 +94,21 @@ nav {
   font-family: var(--default-font-family);
   padding-top: 0.7rem;
 }
+/* footer section styling */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+}
+footer a {
+  color: #5886dd;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* media querey for web responsive */
 @media (max-width: 500px) {
   nav {
@@ -108,5 +123,9 @@ nav {
   }
   .blog-card {
     width: 100%;
+  }
+  footer {
+    font-size: 12px;
+    color: lightgray;
   }
 }
